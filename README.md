@@ -12,7 +12,7 @@
 ... We got more familiar with the language of python. After practicing with hello world we then made an automatic dice roller. The hardest part was getting the repitition of a random number between 1 and 6. We learned how to use while loops to fix this issue. 
 2. Code 
 ... [Lesson00](afergus89/Engineering_4_Notebook/Python/lesson00.py)
-... [Dice Roller](afergus89/Engineering_4_Notebook/Python/DiceRoller.py)
+... [Dice Roller](Python/DiceRoller.py)
 ## Python Program Calculator
 1. Lessons Learned
 ... We learned how to calculate simple math problems in Python. We had previously learned this in arduino, but we encounterd problems with learning the new language. However the code was fairly simple once we figured out the commands we needed to do each funcion when we entered two numbers. 
