@@ -1,5 +1,5 @@
 # Automatic Dice Roller
-#Written by Molly and Alex
+# Written by Molly and Alex
 
 from random import randint
 
