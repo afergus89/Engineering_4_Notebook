@@ -3,15 +3,16 @@
 
 word = input("Player 1: What's the word?")
 print ("\n" * 50)
-##print ("---\u2510","0","  |","  /|\ ","  |","  / \ ")
+blanks = [] 
+for i in word:
+    blanks.append('_')
+print(blanks)
+
 letter = input("Player 2: Guess a letter")
 tries = 0
 playerguess = None
 guessedletters = []
-blanks = [] 
 
-if letter in word:
-    blanks.append('_')
 myArray = [
     "---|  ",
     "   0  ",
@@ -21,19 +22,20 @@ myArray = [
     "   |  ",
     "  /   ",
     "   \  " ]
-
-if tries < 10:
+while tries < 10:
     guessedletters.append(letter)
     if letter not in word:
         tries +=1
-        print("_") 
+        ##print("_") 
     else:
         print("correct!")
-        print(letter)
+        
+        blanks[3] = letter
+        print(blanks)
 
     if "_" not in blanks:
         print("You won!")
-    
+        break
     letter = input("Guess again!")
     
     ##for let in word:
