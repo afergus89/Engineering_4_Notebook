@@ -1,5 +1,5 @@
-#Python calculator
-#Molly and Alex
+# Python calculator
+# Molly and Alex
 a = int(input("Enter first number:"))
 b = int(input("Enter another number:"))
 
