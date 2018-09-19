@@ -1,26 +1,50 @@
-# MSP
-# Molly and Alex
+##MSP
+##Molly and Alex
 
 word = input("Player 1: What's the word?")
-guess = 0
 print ("\n" * 50)
-
+##print ("---\u2510","0","  |","  /|\ ","  |","  / \ ")
 letter = input("Player 2: Guess a letter")
+tries = 0
+playerguess = None
+guessedletters = []
+blanks = [] 
 
-##if letter in word:
-##    print("nice")
-##else:
-##    print("nope")
-if guess < 10:
+if letter in word:
+    blanks.append('_')
+myArray = [
+    "---|  ",
+    "   0  ",
+    "   |  ",
+    "  \   ",
+    "    / ",
+    "   |  ",
+    "  /   ",
+    "   \  " ]
+
+if tries < 10:
+    guessedletters.append(letter)
+    if letter not in word:
+        tries +=1
+        print("_") 
+    else:
+        print("correct!")
+        print(letter)
+
+    if "_" not in blanks:
+        print("You won!")
     
-    for let in word:
-        if let == letter:
-            print(letter)
-        else:
-            print("_")
+    letter = input("Guess again!")
+    
+    ##for let in word:
+        ##if let == letter:
+            ##print(letter)
+        ##else:
+            ##print("_")
             
-    guess += 1
-    #print(guess)
-    print("Guess again!")
-else:
-    print("no more guesses")
+if tries == 10:
+    print("You lost :(")
+    print("Word was: " + word) 
+
+
+    
