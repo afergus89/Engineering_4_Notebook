@@ -1,5 +1,5 @@
-#Quadratic solver
-#Molly and Alex
+# Quadratic solver
+# Molly and Alex
 
 print ("Quadratic solver")
 print ("Enter the coefficients for ax^2 + bx + c = 0")
