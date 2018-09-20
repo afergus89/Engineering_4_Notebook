@@ -1,16 +1,18 @@
 ##MSP
 ##Molly and Alex
 
-word = input("Player 1: What's the word?")
+word = input(str("Player 1: What's the word?"))
+for i in range(0,len(word)):
+        print(i)
+        print(word[i])
 print ("\n" * 50)
 blanks = [] 
 for i in word:
     blanks.append('_')
 print(blanks)
 
-letter = input("Player 2: Guess a letter")
+letter = input(str("Player 2: Guess a letter"))
 tries = 0
-playerguess = None
 guessedletters = []
 
 myArray = [
@@ -29,18 +31,26 @@ while tries < 10:
         ##print("_") 
     else:
         print("correct!")
+    ##for i in range(0,len(myArray)-tries):
+        ##print(myArray[i])
+
+    i = 0
         
-        blanks[3] = letter
-        print(blanks)
+        ##blanks[3] = letter
+    for let in word:
+        if let == letter:
+            blanks[i] = letter
+            print(blanks)
 
     if "_" not in blanks:
-        print("You won!")
+        print("You won! :)")
         break
     letter = input("Guess again!")
+
     
     ##for let in word:
         ##if let == letter:
-            ##print(letter)
+            ##blanks[i] = letter
         ##else:
             ##print("_")
             
