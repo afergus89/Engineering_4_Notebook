@@ -18,12 +18,10 @@ guessedletters = []
 myArray = [
     "---|  ",
     "   0  ",
+    "  \|/ ",
     "   |  ",
-    "  \   ",
-    "    / ",
-    "   |  ",
-    "  /   ",
-    "   \  " ]
+    "  / \ "
+    ]
 while tries < 10:
     guessedletters.append(letter)
     if letter not in word:
@@ -31,16 +29,16 @@ while tries < 10:
         ##print("_") 
     else:
         print("correct!")
-    ##for i in range(0,len(myArray)-tries):
-        ##print(myArray[i])
-
+    for i in range(0,len(myArray)-tries):
+        print(myArray[i])
+        
     i = 0
         
-        ##blanks[3] = letter
     for let in word:
         if let == letter:
             blanks[i] = letter
-            print(blanks)
+        i +=1
+    print(blanks)
 
     if "_" not in blanks:
         print("You won! :)")
