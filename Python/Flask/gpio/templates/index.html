@@ -4,10 +4,17 @@
 	<title>GPIO with Flask!</title>
 </head>
 <body>
+
+<h1>Turn LEDs on and off through an IP address!</h1>
+
+<img src="twopups.jpg" style="width:400px;height:500px;">
+
 {{msg}}
 <form method="POST">
-	<button type="submit" name="submitBtn" value="You clicked!">Click me!</button>
-	<button type="submit" name="submitBtn" value="You clicked!">Click me!</button>
+	<button type="submit" name="submitBtn" value="blue led">Click me!</button>
+{{msg}}
+<form method="POST">
+	<button type="submit" name="submitBtn" value="red led">Click me!</button>
 </form>
 </body>
 </html>
