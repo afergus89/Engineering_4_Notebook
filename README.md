@@ -58,18 +58,19 @@
 	We learned about the split function, but ended up not using it and wrote the minimal amount of code that we could to complte the assignment.
 
 2. Code
+
   [Strings and Loops](Python/stringsandloops.py)
 
-##MSP
+## MSP
 1. Lessons learned
 
   We learned what an array is and how to use it. We had several differnet arrays in this assignment and learned how to use them simultaneously. The hardest part was getting the guessed letters into the correct spaces in the word. We found that using an array solved that problem.  
 
-2.Code
+2. Code
 
   [MSP](Python/pythonchallenge.py)
 
-##GPIO pins- Bash
+## GPIO pins- Bash
 1. Lessons learned
 
   This was our first time using GPIO pins and we learned the correct commands for turning an LED on and off 10 consecutive times through Python. 
@@ -78,7 +79,7 @@
 
   [Bash](Python/GPIOpins.py)
 
-##GPIO pins- SSH
+## GPIO pins- SSH
 
 1. Lessons learned
 
@@ -88,7 +89,7 @@
   
   We did this through an app on Alex's phone
 
-##Hello Flask
+## Hello Flask
 
 1. Lessons learned
 
@@ -96,9 +97,9 @@
  
 2. Code
 
-  [Flask](Python/Flask/Hello World/app.py)
+  [Flask](Python/Flask/Hello_World/app.py)
 
-##GPIO Pins- Flask
+## GPIO Pins- Flask
 
 1. Lessons learned
 
@@ -107,13 +108,15 @@
 2. Code
 
   [GPIO Flask](Python/Flask/gpio/app.py)
+
   [HTML](Python/Flask/gpio/templates/index.html)
 
-##GPIO- I2C
+## GPIO- I2C
 
 1. Lessons learned
 
    We were introduced to an accelerometer and an OLED display. We learned how to enable I2C on our pi. We were given previously written coding templated that we used to help us understand how they work together. First we made shapes on our display and then we were able to take those measurements and display them on the OLED screen. 
 
 2. Code
+
   [I2C](
