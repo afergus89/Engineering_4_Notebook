@@ -119,4 +119,4 @@
 
 2. Code
 
-  [I2C](
+  [I2C](Python/GPIOpins12C.py)
