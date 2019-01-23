@@ -120,3 +120,46 @@
 2. Code
 
   [I2C](Python/GPIOpins12C.py)
+
+## Headless
+
+1. Lessons learned
+	
+  We learned how to graph information we were getting from the accelerometer onto a little display screen. At first we tried to make an animated line plot, but that proved to be too difficult with too many variables. We then switched gears and made a moving bar graph. While our project was much simpler than we expected we feel that we learned a lot from it. 
+
+2. Code 
+
+  [Headless](Python/Headless.py)
+
+## Pi Camera
+
+1. Lessons learned
+
+  We made three small projects within this assignment. The first one we just learned how to turn on the camera. The second one we applied effects to the camera display and take pictures. This one was more challenging when we wanted to apply the effects and only take 5 pictures. The last on ewe learned how to take a 10 second video and change the framerate of it. 
+
+2. Code
+
+  [Camera 1](Python/camera_test01.py)
+  [Camera 2](Pyhton/camera_test02.py)
+  [Camera 3](Python/camera_test03.py)
+
+## Hack Your Stuff
+
+1. Lessons learned
+  
+  This one was fun, but the wiring is what got us stuck. We used the PIR sensor, which we had never used before. At first the code was not working and then we had difficulty with the wiring, but once we figured that out it was quite simple. 
+
+2. Code
+
+  [Hack your stuff](Python/Hackyourstuff.py)
+
+## Copypasta
+
+1. Lessons learned
+
+  We learned how to make our own stop motion video using the pi. We programmed our pi to take a picture everytime we pressed a button. Then we saved the picure into a separate folder and turned that folder into a video. 
+
+2. Code
+
+  [Parent detector](Python/parentdetector.py)
+  [Stop motion](Python/stopmotion.py)
